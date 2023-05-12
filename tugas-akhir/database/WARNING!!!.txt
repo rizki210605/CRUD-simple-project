@@ -1,0 +1,1 @@
+/* perlu mendaftar terlebih dahulu sebagai admin agar dapat masuk kedalam menu dashboard */

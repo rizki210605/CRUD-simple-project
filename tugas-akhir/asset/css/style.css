@@ -1,0 +1,236 @@
+body{
+    
+    background-image: url("../img/bg5.jpg");
+}
+
+/* LOGIN LOGOUT  */
+.lgdaftar, .lgodaftar, .help {
+    padding: 8px 16px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .lgdaftar {
+    background-color: rgb(235, 133, 189);
+    color: white;
+    float: right;
+  }
+  
+  .lgodaftar {
+    background-color:rgb(235, 133, 189);
+    color: white;
+    float: right;
+  }
+  
+  .help{
+    background-color:  rgb(235, 133, 189);
+    color: white;
+    float: right;
+  }
+/* END LOGIN LOGOUT */
+
+table{
+    margin: 0 auto;
+    border: 2;
+    border-style: double;
+    color: yellow;
+}
+
+/* DAFTAR */
+.tbl-daftar{
+    background-color: black;
+}
+
+.daftar{
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+.h4{
+    color: white;
+    text-align: center;
+}
+
+/* DAFTAR END */
+
+.container {
+    margin-left: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gambar {
+    width: 130px;
+  }
+
+  /* ADMIN */
+.AU{
+    text-align: center;
+    margin: auto;
+}
+.admin{
+    color: white;
+    text-align: center;
+}
+
+.DUA{
+    color: yellow;
+    text-align: center;
+}
+
+.tbl-admin{
+  background-color: black;
+  border: 1;
+  border-style: dashed;
+}
+/* ADMIN END */
+
+/* LINK */
+.link-container {
+  display: flex;
+  justify-content: center; /* membuat jarak antar link sejajar */
+  align-items: center; /* membuat link berada di tengah-tengah container */
+
+}
+.link-container a {
+  text-decoration: none;
+  color: white; /* warna link */
+  font-weight: bold; /* ketebalan font */
+  border: 2px;
+  border-radius: 6px;
+  border-style: hidden;
+  background-color:rgb(119, 0, 255);
+  margin: 0 10px; /* memberi jarak antar link */
+  margin-bottom: 0 10px;
+  padding: 0 8px;
+  padding-bottom: 0 10px;
+}
+
+/* LINK END */
+
+/* HOME */
+.home{
+  color: white;
+  text-align: center;
+}
+/* HOME END */
+
+/* INDEX */
+.tbl-index{
+  background-color: black;
+}
+
+.index{
+  color: white;
+  text-align: center;
+}
+
+.add{
+  display: flex;
+  justify-content: center; /* membuat jarak antar link sejajar */
+  align-items: center; /* membuat link berada di tengah-tengah container */
+  margin: 4px;
+  padding: 4px;
+  
+}
+
+.add a{
+  text-decoration: none;
+  color: rgb(0, 0, 0); /* warna link */
+  font-weight: bold; /* ketebalan font */
+  margin: 0 10px; /* memberi jarak antar link */
+  background-color: gainsboro;
+}
+
+.tambah{
+  text-align: center;
+  color: white;
+}
+
+.back{
+    display: flex;
+  justify-content: center; /* membuat jarak antar link sejajar */
+  align-items: center; /* membuat link berada di tengah-tengah container */
+  margin: 4px;
+  padding: 4px;
+  
+}
+
+.back a{
+  text-decoration: none;
+  color: rgb(0, 0, 0); /* warna link */
+  font-weight: bold; /* ketebalan font */
+  margin: 0 10px; /* memberi jarak antar link */
+  background-color: gainsboro;
+}
+
+/* INDEX END */
+
+/* UPDATE */
+.update{
+  text-align: center;
+  color: white;
+}
+
+.fupdate{
+  border: 1;
+  border-style: dotted;
+  background-color: black;
+}
+/* UPDATE END */
+
+/* EDIT */
+.edit{
+  display: flex;
+  justify-content: center; /* membuat jarak antar link sejajar */
+  align-items: center; /* membuat link berada di tengah-tengah container */
+  margin: 4px;
+  padding: 4px;
+  
+}
+
+.edit a{
+  text-decoration: none;
+  color: rgb(0, 0, 0); /* warna link */
+  font-weight: bold; /* ketebalan font */
+  margin: 0 10px; /* memberi jarak antar link */
+  background-color: gainsboro;
+}
+
+.edit-user{
+  text-align: center;
+  color: white;
+}
+/* EDIT END */
+
+/* HEPL */
+.info{
+  text-align: center;
+  color: white;
+}
+
+.desc{
+  text-align: center;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+/* HELP END */
+
+footer{
+  text-align: center;
+  margin-top: 70px;
+  color: white;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.login{
+  text-align: center;
+  color: white;
+}
